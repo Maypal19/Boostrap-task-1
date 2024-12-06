@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    width: 100%;
+    height: 100%;
+}
+body ul li a{
+text-decoration: none;
+}
+body ul li{
+    list-style: none;
+}
+
+/* NVA START */
+
+.nav{
+    align-items: center;
+    background-color: rgb(217, 212, 212);
+}
+.nav h4{
+    margin-left: 60px;
+}
+.nav a{
+    
+    color: black;
+}
+.nav ul {
+    margin-left: 70px;
+    display: flex;
+   
+}
+.nav a{
+    margin-left: 20px;
+}
+.nav input{
+    margin: 5px;
+    margin-left: 60px;
+}
+.nav button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border: 2px solid green;
+}
+/* NAV END */
+
+/* SECTION_1 START */
+
+.section-1 .carousel-inner img{
+    height: 400px;
+    width: 80%;
+    color: black;
+
+}
+
+/* SECTION_1 END */
+
+/* SECTION 2 START */
+.section-2 h4{
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.section-2 .row1{
+    width: 50%;
+}
+    
+.section-2 .row1 h3{
+    margin-top: 30px;
+}
+.section-2 .row1 button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+.section-2 .row2 img{
+    width: 300px;height: 300px;
+}
+.section-2 .A{
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+/* SECTION 2 END */
+
+/* SECTION 3 START  */
+
+.section-3 h4{
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.section-3 .row2{
+    width: 50%;
+}
+    
+.section-3 .row2 h3{
+    margin-top: 30px;
+}
+.section-3 .row2 button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+.section-3 .row1 img{
+    width: 300px;height: 300px;
+}
+.section-3 .A{
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+/* SECTION 3 END  */
+
+/* SECTION 4 START */
+
+.section-4 h4{
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.section-4 .A{
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.section-4 .row1 iframe{
+    width: 400px;
+    height: 300px;
+}
+.section-4 .row2 iframe{
+    width: 400px;
+    height: 300px;
+}
+
+/* SECTION 4 END */
+
+
+/* FOOTER START */
+
+footer{
+    background-color: rgb(11, 11, 37);
+    color: #fff;
+}
+.Company img {
+ width: 150px;
+ height: 150px;
+}
+
+/* FOOTER END */
